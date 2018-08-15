@@ -1,3 +1,11 @@
-<h2> Add a restaurant</h2>
+<h2>C'EST MA BITE</h2>
 
 <%= render 'form', restaurant: @restaurants %>
+
+<hr>
+
+<%= link_to restaurants_path do %>
+  <span class="glyphicon glyphicon-menu-left"></span>
+  <span>Back to list</span>
+<% end %>
+
